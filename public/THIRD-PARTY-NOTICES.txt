@@ -1,0 +1,60 @@
+紫微斗数排盘 · 第三方开源组件许可说明
+========================================
+
+本页面在构建时打包了以下开源组件，均使用 MIT 许可证。
+MIT 许可证要求：在软件的所有副本中保留版权声明与许可声明。以下逐一列出。
+
+------------------------------------------------------------------------
+1. iztro 2.6.3
+   https://github.com/SylarLong/iztro
+   Copyright (c) 2023 All Contributors
+   用途：紫微斗数排盘计算（安星、四化、大限、流年、运限）
+
+2. lunar-lite 0.2.8
+   https://github.com/SylarLong/lunar-lite
+   Copyright (c) 2023 Sylar
+   用途：农历/公历互转（经 iztro 间接引入）
+
+3. lunar-typescript 1.8.6
+   https://github.com/6tail/lunar-typescript
+   Copyright (c) 2020 6tail
+   用途：农历、干支、节气、神煞基础数据（经 lunar-lite 间接引入）
+
+4. dayjs 1.11.23
+   https://github.com/iamkun/dayjs
+   Copyright (c) 2018-present, iamkun
+
+5. i18next（及 react-i18next 运行时相关部分）
+   https://github.com/i18next/i18next
+   Copyright (c) 2022 i18next
+
+------------------------------------------------------------------------
+MIT License（适用于上述全部组件）
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+------------------------------------------------------------------------
+关于本站自有内容
+
+· 页面代码、界面设计、动效、音效合成、逐宫解读文本：本站原创，未复制任何第三方源码或文案。
+· 十二宫、十四主星、四化、庙旺平陷等术语与规则：中国传统术数公有领域内容。
+· 北斗七星（天枢/天璇/天玑/天权/玉衡/开阳/摇光）等星名：中国古代天文学专有名词，公有领域。
+· 未使用任何第三方字体文件、图片素材或音频采样；字体取自操作系统，音效由 Web Audio 实时合成。
+
+· 本页面不包含、不调用任何商业站点的断语库或数据集，与任何第三方产品无隶属关系。

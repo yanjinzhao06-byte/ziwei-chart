@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.pnpm-store/
+*.local
+.DS_Store
+_probe.mjs
+_edge.mjs
+shot*.png
+crop*.png
